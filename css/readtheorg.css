@@ -1092,3 +1092,10 @@ h2.footnotes{
 #subtitle{
 text-align:center;
 }
+
+.title{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    margin: 0;
+}
