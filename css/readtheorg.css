@@ -17,7 +17,9 @@ h1{
 }
 
 h2{
-    font-size:150%;
+    font-size: 150%;
+    color: green;
+    text-decoration: underline;
 }
 
 h3{
