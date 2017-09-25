@@ -3224,4 +3224,12 @@ footer.global h4 {
 .red {color:red;}
 .blue {color:blue;}
 .title-head{
+    font-weight:700;
+}
+#change{
+    color:blue;
+}
+
+body,h1,h2,h3,h4,h5,h6{
+    font-family:'Montserrat'
 }
