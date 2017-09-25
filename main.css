@@ -56,6 +56,13 @@ footer.global,
     padding-left: 1.5em;
     padding-right: 1.5em
 }
+
+@media only screen and (min-width: 40em){
+    .title-head{
+        font-size: 2em;
+    }
+}
+
 @media only screen and (min-width: 73em) {
     header.global,
     footer.global,
@@ -507,7 +514,7 @@ img.site-mobile {
         padding: 4.7em 3em 0 1.5em
     }
     .contact-elsewhere {
-        float: right;
+        float:right;
         padding-top: 5em
     }
 }
@@ -3216,3 +3223,8 @@ footer.global h4 {
 }
 .red {color:red;}
 .blue {color:blue;}
+.title-head{
+    text-align: center;
+    font-weight: 700;
+    font-size:2.5em;
+}
