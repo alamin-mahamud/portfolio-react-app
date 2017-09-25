@@ -293,7 +293,7 @@ table {
     box-sizing: border-box
 }
 body {
-    font-family: "Roboto Slab";
+    font-family: "Montserrat";
     font-size: 100%;
     color: #333
 }
@@ -3201,9 +3201,10 @@ footer.global h4 {
     color:white;
 }
 .section-skill-intro{
-        display: inline-block;
+    display: inline-block;
     float: left;
     margin: 10px;
+    margin-left:0px;
     line-height: 2em;
 }
 .sati{
