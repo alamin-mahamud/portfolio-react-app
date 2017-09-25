@@ -293,7 +293,7 @@ table {
     box-sizing: border-box
 }
 body {
-    font-family: "Lato";
+    font-family: "Roboto Slab";
     font-size: 100%;
     color: #333
 }
@@ -2516,7 +2516,8 @@ header.global {
     margin-top: -0.55em;
     color: #ebaa71;
     font-size: 2.3em;
-    font-weight: 100
+    font-weight: 100;
+    font-family: 'Calibri'
 }
 .brand:before {
     content:"{";
@@ -2972,7 +2973,7 @@ footer.global h4 {
         padding-top: 4.5em
     }
     .nutshell h2 {
-        font-size: 2.5em;
+        /* font-size: 2.5em; */
         margin-bottom: 0.5em
     }
     .nutshell .icon-list {
@@ -3186,6 +3187,31 @@ footer.global h4 {
 }
 
 /* custom - alamin */
-.about-intro h1{
-
+.section-skill{
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 5px 10px;
+    float: left;
+    margin: 10px;
+    margin-left: 0px;
+    font-weight: 400;
 }
+.section-skill:hover{
+    background:#333;
+    color:white;
+}
+.section-skill-intro{
+        display: inline-block;
+    float: left;
+    margin: 10px;
+    line-height: 2em;
+}
+.sati{
+    display:inline-block;
+    float:left;
+    line-height:2em;
+    margin:10px;
+    margin-left:0px;
+}
+.red {color:red;}
+.blue {color:blue;}
