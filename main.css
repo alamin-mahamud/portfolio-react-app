@@ -3233,3 +3233,36 @@ footer.global h4 {
 body,h1,h2,h3,h4,h5,h6{
     font-family:'Montserrat'
 }
+
+.center{
+    text-align:center;
+}
+
+.skill-block{
+    width:210px;
+    height:300px;
+    float: left;
+    border: 1px solid #ddd;
+    margin: 10px;
+    margin-left: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.head-part{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+    color: red;
+}
+
+.skill-block p{
+    margin:10px;
+}
+
+.tail-part{
+    border-top:1px solid #ddd;
+
+}
+.tail-part p{
+    padding-top: 5px;
+}

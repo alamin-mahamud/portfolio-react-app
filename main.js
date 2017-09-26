@@ -6,6 +6,6 @@ $(document).ready(function() {
   setInterval(function() {
     $('#change').html(strings[cout]);
     cout == strings.length-1 ? cout = 0 : cout++;
-  }, 1000);
+  }, 2000);
 
 });
