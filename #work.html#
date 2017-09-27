@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <body>
+      <header class="global">
+
+        <h1 class="brand">
+          <a href="/">Alamin</a>
+        </h1>
+
+        <nav class="global">
+
+          <!-- <a  href="/">About</a> -->
+          <a href="./work.html">Work</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./timeline.html">Timeline</a>
+          <a href="#contact" id="contact-link">Contact</a>
+        </nav>
+      </header>
+
+      <section class="work-entries">
+
+        <article class="work-teaser left">
+                <header>
+                        <h2 class="work-title">Searchable Select</h2>
+                        <h3 class="work-type">Ember addon</h3>
+                        <a class="work-link icon-web" href="http://tedconf.github.io/ember-searchable-select" target="_blank"><span>View</span></a>
+                </header>
+                <figure class="responsive-site">
+    <img src="./assets/work/searchable-select.png" alt="Ember Searchable Select screenshot">
+</figure>
+
+<p><a href="http://emberjs.com/" target="_blank">Ember.js</a> addon for fancy select-like menus with searching and filtering capabilities. Features fully accessible keyboard controls and data down, actions up architecture.</p>
+
+        </article>
+
+        <article class="work-teaser right">
+                <header>
+                        <h2 class="work-title">HackerYou</h2>
+                        <h3 class="work-type">D3 &amp; SVG animations / responsive site</h3>
+                        <a class="work-link icon-web" href="http://hackeryou.com" target="_blank"><span>View</span></a>
+                </header>
+                <figure class="responsive-site">
+    <img src="./assets/work/hackeryou.jpg" alt="HackerYou website screenshot">
+</figure>
+
+<p>Rebuild of HackerYou's website, featuring lots of fun custom SVG animations and an interactive, Gantt chart style course calendar built with <a href="https://d3js.org/" target="_blank">D3.js</a>.    </p>
+
+        </article>
+
+        <article class="work-teaser left">
+                <header>
+                        <h2 class="work-title">CSS Hexagon, Please</h2>
+                        <h3 class="work-type">Developer Tool / AngularJS App</h3>
+                        <a class="work-link icon-web" href="http://csshexagon.com" target="_blank"><span>View</span></a>
+                </header>
+                <figure class="responsive-site">
+    <img src="./assets/work/csshex.png" alt="CSS Hexagon, Please screenshot">
+</figure>
+
+<p>CSS Hexagon, Please is a web developer tool for generating pure CSS hexagons with box-shadow, border and background images. This was a fun way for me to give something back to the always helpful web developer community and a perfect chance to dig into <a href="http://angularjs.org" target="_blank">AngularJS</a>. I also really enjoyed the challenge of wrangling some of the new HTML5 input elements like <a href="http://brennaobrien.com/blog/2014/05/style-input-type-range-in-every-browser.html">input[type=range]</a> and input[type=color].</p>
+
+        </article>
+
+        <article class="work-teaser right">
+                <header>
+                        <h2 class="work-title">Learning Labs</h2>
+                        <h3 class="work-type">Responsive Site / Custom WordPress Build</h3>
+
+                </header>
+                <figure class="responsive-site">
+    <img src="./assets/work/learninglabs-full.jpg" alt="Learning Labs website" class="site-full">
+    <img src="./assets/work/learninglabs-mobile.png" alt="Learning Labs website on a small screen" class="site-mobile">
+</figure>
+
+<p><a href="http://learninglabs.org" target="_blank">Learning Labs</a> is a new online hub for digital literacy programs across Canada, and I had the pleasure of making it come to life through code.  Starting with a beautiful and engaging design from <a href="http://studiofunction.com/" target="_blank">Studio Function</a>, I had a lot of fun implementing front-end flourishes like animated 3-D flips, subtle parallax effects, and killer typography (all in Sass, of course). I also had a blast playing around with the <a href="http://wordpress.org/plugins/json-api/" target="_blank">JSON API for WordPress</a> plugin and <a href="http://handlebarsjs.com/" target="_blank">Handlebars</a> to devliver a rich, app-like epxerience for browing events.</p>
+
+        </article>
+
+        <article class="work-teaser left">
+          <header>
+            <h2 class="work-title">Canada's Land Watch</h2>
+            <h3 class="work-type">Interactive Site</h3>
+            <a class="work-link icon-web" href="http://www.toshiba.ca/landwatch/" target="_blank"><span>View</span></a>
+          </header>
+          <figure class="responsive-site">
+            <img src="./assets/work/landwatch-full.jpg" alt="Canada's Land Watch website" class="site-full">
+            <img src="./assets/work/landwatch-mobile.jpg" alt="Canada's Land Watch website on a small screen" class="site-mobile">
+          </figure>
+
+          <p>A fun project for a great cause, <a href="http://filamentlab.com" target="_blank">Filament</a> and <a href="http://www.smithrobertsandco.com/" target="_blank">Smith Roberts</a> teamed up to make the <a href="http://www.natureconservancy.ca/en/" target="_blank">Nature Conservancy of Canada</a>'s conservation project come to life. I built out the interactive front-end for both deskotp and mobile, including some custom JavaScript scrolling behaviour to guide you through your journey, and my infamous CSS <a href="http://codepen.io/brenna/full/hbDqL" target="_blank">hexagon animals</a>. Plus, I can now tell you how much a moose weighs (up to 1,500 lbs!).</p>
+
+
+          <article class="work-teaser right">
+            <header>
+              <h2 class="work-title">Women&amp;&amp;Tech</h2>
+              <h3 class="work-type">Responsive Site</h3>
+              <a class="work-link icon-web" href="http://womenandtech.com" target="_blank"><span>View</span></a>
+            </header>
+            <figure class="responsive-site">
+              <img src="./assets/work/womenandtech-full.jpg" alt="Women&amp;&amp;Tech website" class="site-full">
+              <img src="./assets/work/womenandtech-mobile.png" alt="Women&amp;&amp;Tech website on a small screen" class="site-mobile">
+            </figure>
+
+            <p>I've had the pleasure of working with a talented and inspiring bunch of designers and developers on Women&amp;&amp;Tech. Based here in Toronto, and borne out of the difficulty of finding female speakers at tech events, we aim to share the stories of women doing great work in the tech industry. An ever evolving project, I contribute strategy, content and front and back end code to this responsive build.</p>
+
+          </article>
+        </article>
+
+        <article class="work-teaser left">
+                <header>
+                        <h2 class="work-title">A Brave New HTML</h2>
+                        <h3 class="work-type">HTML5 Demo Site</h3>
+                        <a class="work-link icon-web" href="http://brenna.github.io/brave-new-html/" target="_blank"><span>View</span></a>
+                </header>
+                <figure class="responsive-site">
+    <img src="./assets/work/html5.jpg" alt="HTML5 Demo site screenshot">
+</figure>
+
+<p>Back when most people thought HTML5 was only good for getting videos to show up on the iPhone, I set up a quick demo site to show off what was really in store. Reading <em>Ender's Game</em> at the time and a chance to play with Illustrator led to the custom solar stytem illustration. </p>
+
+<p>I also had a lot of fun digging into bleeding-edge demos and info while creating the content here. As a testament to what can already be done in a typical project, the site was built using the new semantic markup elements and a very generous dose of CSS3. And thus my love affair with CSS transitions was borne. </p>
+
+        </article>
+
+</section>
+
+      <!-- FOOTER -->
+      <footer id="contact" class="global">
+        <div class="contact-intro">
+          <h3 class="">Get in Touch</h3>
+          <h4>Or find me elsewhere on the Internet.<br> I come here often.</h4>
+        </div>
+        <div class="contact-email">
+          <p><a href="mailto:alamin.ineedhelp@gmail.com" target="_blank">Want to Email Me!!</a></p>
+        </div>
+        <div class="contact-elsewhere">
+          <ul class="social">
+            <li><a href="http://twitter.com/brnnbrn" class="icon-twitter" title="Twitter" target="_blank"><span>Twitter</span></a></li>
+            <li><a href="http://brnnbrn.tumblr.com/" class="icon-tumblr" title="everything else" target="_blank"><span>Tumblr</span></a></li>
+            <li><a href="https://open.spotify.com/user/brnnbrn" title="Spotify" target="_blank">
+                <i class="fa fa-spotify social__icon"></i>
+            </a></li>
+            <li><a href="http://codepen.io/brenna" class="icon-codepen" title="CodePen" target="_blank"><span>CodePen</span></a></li>
+            <li><a href="http://github.com/brenna" class="icon-github" title="GitHub" target="_blank"><span>GitHub</span></a></li>
+          </ul>
+        </div>
+      </footer>
+
+    <!-- SCRIPTS
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <script src="/assets/plugins.js"></script>
+    <script src="/assets/vendor/prettify.js"></script>
+    <script src="/assets/main.js"></script>
+    SCRIPTS END -->
+    </body>
+  </head>
+
+
+</html>
