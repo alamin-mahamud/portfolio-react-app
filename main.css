@@ -109,11 +109,11 @@ footer.global,
 }
 header.global,
 footer.global {
-    background-color: #101010;
-    background-image: -webkit-linear-gradient(45deg, #101010 25%, #242424 25%, #242424 50%, #101010 50%, #101010 75%, #242424 75%, #242424);
+    background-color: #2a3a3f;
+/*    background-image: -webkit-linear-gradient(45deg, #101010 25%, #242424 25%, #242424 50%, #101010 50%, #101010 75%, #242424 75%, #242424);
     background-image: -moz-linear-gradient(45deg, #101010 25%, #242424 25%, #242424 50%, #101010 50%, #101010 75%, #242424 75%, #242424);
     background-image: -o-linear-gradient(45deg, #101010 25%, #242424 25%, #242424 50%, #101010 50%, #101010 75%, #242424 75%, #242424);
-    background-image: linear-gradient(45deg, #101010 25%, #242424 25%, #242424 50%, #101010 50%, #101010 75%, #242424 75%, #242424);
+    background-image: linear-gradient(45deg, #101010 25%, #242424 25%, #242424 50%, #101010 50%, #101010 75%, #242424 75%, #242424); */
     background-size: 8px 8px
 }
 .resources li {
@@ -395,7 +395,7 @@ li {
 }
 a {
     text-decoration: none;
-    color: #d2774a;
+    color: #fdcd3b;
     border-bottom: solid 1px transparent;
     transition: border-color 0.2s ease-out;
     -webkit-transition: border-color 0.2s ease-out;
@@ -404,7 +404,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    border-bottom: solid 1px #d2774a;
+    border-bottom: solid 1px #fdcd3b;
     transition: border-color 0.3s ease-out;
     -webkit-transition: border-color 0.3s ease-out
 }
@@ -2520,7 +2520,7 @@ header.global {
     position: absolute;
     top: 50%;
     margin-top: -0.55em;
-    color: #ebaa71;
+    color: #fdcd3b;
     font-size: 2.3em;
     font-weight: 100;
     font-family: 'Calibri'
@@ -2557,7 +2557,7 @@ nav.global a {
     border-color: transparent
 }
 nav.global a:hover {
-    border-color: #fff
+    border-color: #fdcd3b
 }
 nav.global a:before {
     content: "";
@@ -3243,8 +3243,8 @@ body,h1,h2,h3,h4,h5,h6{
 }
 
 .skill-block{
-    width:210px;
-    height:300px;
+    width:175px;
+    height:360px;
     float: left;
     border: 1px solid #ddd;
     margin: 10px;
@@ -3257,7 +3257,9 @@ body,h1,h2,h3,h4,h5,h6{
     border-bottom: 1px solid #ddd;
     margin-bottom: 5px;
     color: red;
+    height: 110px;
 }
+
 
 .skill-block p{
     margin:10px;
@@ -3327,4 +3329,10 @@ p.statement {
 .btn:hover{
     color:#FDCD3B;
     background: #2A3A3F;
+}
+.head-part img {
+    width: 100px;
+    /* height: 50px; */
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
