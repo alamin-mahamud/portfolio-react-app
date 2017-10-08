@@ -3204,6 +3204,8 @@ footer.global h4 {
     margin: 10px;
     margin-left: 0px;
     font-weight: 400;
+    border-radius:10px;
+    border-style:dashed;
 }
 .section-skill:hover{
     background:#333;
@@ -3251,8 +3253,6 @@ body,h1,h2,h3,h4,h5,h6{
     margin-left: 0px;
     padding: 10px;
     text-align: center;
-    border-radius:10px;
-    border-style:dashed;
 }
 
 .head-part{
@@ -3382,4 +3382,30 @@ width: 100px;
     height: 50px;
     border-top: 1px solid #ddd;
     line-height: 45px;
+}
+
+.mySection{
+    padding:100px;
+    min-height:200px;
+}
+
+#specialty{
+    background: #fadf38;
+}
+
+#specialty h1{
+    font-size: 160px;
+    text-decoration: overline;
+    color: #2b3a40;
+}
+
+#specialty h2{
+    padding-bottom: 20px;
+    color: #2b3a40;
+    text-decoration: overline;
+}
+
+body{
+    width:100%;
+    overflow-x:hidden;
 }
