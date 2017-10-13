@@ -1,0 +1,4 @@
+/* Using HTML5 elements in non-HTML5 browsers */
+article, aside, footer, header, hgroup, nav, section {
+    display: block;
+}
