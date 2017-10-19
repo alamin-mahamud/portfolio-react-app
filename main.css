@@ -3245,7 +3245,7 @@ body,h1,h2,h3,h4,h5,h6{
 }
 
 .skill-block{
-    width:19%;
+    width:175px;
     height:450px;
     float: left;
     border: 1px solid #ddd;
@@ -3399,6 +3399,8 @@ width: 100px;
     text-decoration: overline;
     color: #2b3a40;
 }
+
+
 
 #specialty h2{
     padding-bottom: 20px;
