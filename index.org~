@@ -1,0 +1,147 @@
+#+TITLE: Alamin's Blog
+* About
+** Intro
+Hi, I'm Alamin.
+I am a Full Stack Engineer [Specialised in Back End].
+I design and build 
+- web applications
+- enterprise applications
+- distributed systems.
+
+Among Many things I am
+- self taught
+- full stack
+- Javascript Expert
+- Emacs Hacker
+- Linux User
+- Carpenter
+- Consultant
+- Team Worker
+- mechanical engineer
+- fast typer
+** Specialty
+I am a full-stack engineer with over 5 years of experience.
+I have maintained, developed and launched [[/portfolio][Multiple Projects]] from scratch,
+carrying the development of its backend and front-end codebases.
+My current toolset includes *NodeJS*, *Express*, *MongoDB*, *Angular/React* and numerouse frameworks, libraries and technologies related to them. [[/skills][Graphical Representation]].
+Feel free to ask me any questions. I can help you in your project in all from the UI mockups, back-end and front-end web development to fixing the design and installing and configuration of the application on *staging/production* environments.
+
+** Front-End Web Development.
+*I specialize in applications based on =AngularJS= | =ReactJS=.*
+My current experience and skills in front-end:
+- Senior Javascript Development, a'la prototype programming, promises etc.
+- full integration of front-end development using [[gulpjs.com][Gulp]].
+- usage of tools like BrowserSync, automatic tests, code miniification, multiple environment support.
+- usage of much more work-effective language syntaxes like: [[co][CoffeScript]] / [[http://][ES6]] / [[http://][ES7]] / [[http://][TypeScript]]
+- good sense of design  and typography, together with some past experiences in designing in Photoshop.
+- knowledge of many open source JS libraries like React, Redux, Flux, Backbone, jQuery, Lodash/Underscore.
+- ...and even *Mobile WebApp Dev* with the use of =Apache Cordova= & =Ionic Framework=.
+With these, I can build a fully working native application for iOS and Android (both at once!) in Javascript in less than month.
+*You can already find some of my mobile applications in [[/portfolio][my portfolio]].
+
+| NUMBER                      | NUMBER         | NUMNER        |
+| projects done completely in | talks given    | co-founded    |
+| Angular Since 2017.         | aboout ANGULAR | meetup group. |
+
+** Back-End Web Development
+*I fully develop my back-ends in =Ruby on Rails= and alternatively NodeJS or Elixir.
+
+What I do is:
+- Senior development of Ruby on Rails web applications and/or RESTful API servers (often used later in the Front-End Angular Application).
+- cooperation with APIs, remote data synSchnorizations, cloud servers, workers 
+- using different type of databases (=MySQL=, =PostgreSQL=, =ElasticSearch=).
+- dividing the servers onto different nodes, databases sharding, load balancing.
+- deploying the application to the server with =Git= / =Capistrano=, =Chef= or =Ansible=
+- refactoring badly-written applications.
+- writing unit & e2e tests.
+
+| NUMBER                      | NUMBER         | NUMNER        |
+| projects done completely in | talks given    | co-founded    |
+| Node Since 2017.            | aboout Node    | meetup group. |
+
+** What about Dev-Ops, Design, UI?
+*During my time I have created tens of websites*
+Thus, not only I have coded their back-end and front-end code, but I also often cared about other things needed in a successful web application.
+
+- good UI Planning and thinking how it affects the UX.
+- consistency in design, typography.
+- search Engine Optimization.
+- deployment to the server (f.e. using =Chef=) and monitor its processes to avoid downtimes.
+
+You say that I can't be the best in everything? Okay Send the UI & design job to someone else and I'll take care of all the development ;)
+
+*Of course I don't always work alone. I like working in a team. If you have an already working project/team, but still need someone to help it, contact me. I'll fit into your needs.
+
+* Blog
+** Blog Title 1
+*** Text
+*** Categories
+** Blog Title 2
+*** Text 
+*** Categories
+* Portfolio
+** FestBlast
+The best way to enjoy fests!
+
+*FestBlast in all-in-one platform that lets you easily find the best music fests, organize your trip and personalize your festiva experience*. This free web and mobile solution helps you stay connected with your friends & share your epic festival moments.
+*** Results
+About 3 months of full-time job resulted in.
+*Responsive Web Application* with features like:
+1. Browse festivals and artists from all over the world;
+2. rate, like, set attendance status of concerts & festivals
+3. get automatic suggestions of festivals based on your taste.
+4. share concerts, festivals with friends and discuss them.
+5. plan your festival trip using small carpooling service.
+6. add friends on your FestBlast account and optionally import them from Facebook/Google+/Windows Live/Yahoo.
+7. import your favourite artists from services like Spotify, Grooveshark, LastFM, Deezer and Facebook.
+8. browse festivals & artists pages, which are automatically filled in with theirs Youtube videos, instagram photos and Twitter posts.
+9. ...and pin your own photos & videos from the festival you have just attended!
+*mobile applications on Android & iOS* with features like:
+1. browse the festival's lineup and set your own one, with only the gigs you want;
+2. get alerts about the upcominig gigs, which you marked you want to attend;
+3. see festival's map, place your own pins on the map, and find your friends there
+4. ...and some other small but useful features: weather, flashlight, and backpack, a list of items to get before you leave for the festival!
+
+Design and UI sketches were prepared beforehand by the FestBlast's team.
+
+*** Technical Specs
+**** Web Application
+- Ruby On rails
+- Serves 3 purposes at once:
+  - as front-end web app.
+  - as API for the mobile App,
+  - as Administrative panel.
+- Connects a lot of APIs
+  - imports user's friends from: Facebook, Google+, Windows Live, Yahoo.
+  - imports user's favourited artists from: Spotify, Grooveshark, Deezer, LastFM, Facebook.
+  - scrapes artists & festivals videos, photos & tweets from: YouTube, Instagram, SoundCloud, Twitter.
+- Advanced full-text search for artissts & festivals, with optional filters like: date, price, size, location and an ability to find the closest festivals based on your current location!
+- Fully scallable in Horizontal Way (and easily: via [[https://chef.com][Chef]])
+
+**** Mobile Application
+- Angular and Ionic Framework
+- Deployable to Android 4.0+ & iOS 6.0+ via Apache Cordova
+- Support for push notificatoins and authentications via native FB Login.
+- Used tools: Gulp, SASS, Jade, CoffeeScript.
+
+Both of the apps are covered with unit tests. Mobile app has even  some integrations tests (in [[/][Protractor]]).
+
+**** Technology Used
+1. Ruby on Rails
+2. AngularJS
+3. Ionic Framework
+4. Apache Cordova 
+5. Redis
+6. Elastic Search 
+7. Chef
+*** Screenshots | Demo | Screencasts
+[[/][Demo Link]] [[/][Github Link]] 
+#+CAPTION: ScreenShot 1
+#+NAME: fig: ScreneShot 1
+[[./img/a.png]]
+** Project 2
+** Project 3
+* Skills 
+Graphical Representation.
+* My Talks
+* Contact
