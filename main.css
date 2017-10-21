@@ -10,6 +10,18 @@ body {
   letter-spacing: .25px;  
 }
 
+.btn{
+    border: 2px solid #2f2f2f;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all ease 1s;
+}
+
 .clear {
   clear: both
 }
@@ -455,7 +467,7 @@ h3#hire-ready {
 }
 
 .duplicate-block-hire{
-  width: 50%;
+  width: 49%;
   float: left;
 }
 
@@ -463,6 +475,64 @@ h3#mail-link{
   margin-top: 70px;
   font-size:100px;
   text-transform: uppercase;
+}
+
+#myForm label{
+    display: block;
+    font-size: 1.875rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#myForm input{
+    background: none;
+    border: 2px solid #2f2f2f;
+    border-radius: 0;
+    color: #2f2f2f;
+    font-size: 1.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    height: 98px;
+    padding: 0 20px;
+    width: 93%;
+    margin-bottom: 10px;
+}
+
+#body-message{
+  margin-bottom: 50px;
+    background: none;
+    border: 2px solid #2f2f2f;
+    border-radius: 0;
+    color: #2f2f2f;
+    font-size: 1.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    height: 150px;
+    padding: 0 20px;
+    width: 93%;
+}
+
+input#mySubmit{
+  width: 200px;
+  margin: 0 auto;
+}
+
+input#mySubmit:hover{
+  color: white;
+  background: #333;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    -webkit-appearance: button;
+    overflow: visible;
+    
+}
+
+.input-column:last-child{
+  width: 200px;
+  margin: 0 auto;
 }
 
 /* Contact */

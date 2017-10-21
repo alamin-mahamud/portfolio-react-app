@@ -845,11 +845,36 @@
         </div>
         <div class="duplicate-block-hire">
             <div id="myForm">
-                <!-- // label => input // email => input // idea => body -->
-                <h3 id="mail-link">
-                    <a href="mailto:alamin_mahamud@hotmail.com" target="_top"> Email Me!
-            </a>
-                </h3>
+                <!-- 
+               <h3 id="mail-link">
+               <a href="mailto:alamin_mahamud@hotmail.com" target="_top"> Email Me!
+               </a>
+               </h3>
+          -->
+
+                <div class="input-column">
+                    <label for="your-name">FULL NAME*</label>
+                    <span class="field-span">
+                  <input type="text" name="your-name" value="" id="your-name" aria-required="true" aria-invalid="false">
+                </span>
+                </div>
+                <div class="input-column">
+                    <label for="your-email">EMAIL*</label>
+                    <span class="field-span">
+                  <input type="text" value="someone@example.com" id="your-email" aria-required="true" aria-invalid="false">
+                </span>
+                </div>
+                <div class="input-column">
+                    <label for="your-message">PROJECT DETAILS / COMMENTS</label>
+                    <span class="field-span">
+                  <textarea  value="" id="body-message" cols="40" rows="10"></textarea>
+                </span>
+                </div>
+                <div class="input-column">
+                    <input type="submit" value="Send It!" class="submit btn" id="mySubmit">
+                    </input>
+
+                </div>
             </div>
         </div>
 
