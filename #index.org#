@@ -1,6 +1,10 @@
 #+TITLE: Alamin's Blog
 * About
-** Intro
+** DONE Intro
+   CLOSED: [2017-10-21 Sat 10:32]
+   :LOGBOOK:  
+   - State "DONE"       from ""           [2017-10-21 Sat 10:32]
+   :END:      
 Hi, I'm Alamin.
 I am a Full Stack Engineer [Specialised in Back End].
 I design and build 
@@ -25,8 +29,8 @@ I have maintained, developed and launched [[/portfolio][Multiple Projects]] from
 carrying the development of its backend and front-end codebases.
 My current toolset includes *NodeJS*, *Express*, *MongoDB*, *Angular/React* and numerouse frameworks, libraries and technologies related to them. [[/skills][Graphical Representation]].
 Feel free to ask me any questions. I can help you in your project in all from the UI mockups, back-end and front-end web development to fixing the design and installing and configuration of the application on *staging/production* environments.
-
-** Front-End Web Development.
+ [[box-shadow: 0px -1px 3px #333;]] 
+** Front-End Web Devel [[ [[box-shadow: 0px -1px 3px #333;]] bo [[box-shadow: 0px -1px 3px #333;]] x-sh [[box-shadow: 0px -1px 3px #333;]] adow: 0px -1px 3px #333;]] opment.
 *I specialize in applications based on =AngularJS= | =ReactJS=.*
 My current experience and skills in front-end:
 - Senior Javascript Development, a'la prototype programming, promises etc.
