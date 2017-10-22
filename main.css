@@ -123,7 +123,11 @@ a:hover{
     line-height: 75px;
 }
 
-.paren {} #mySiteTitle a {
+.paren {
+   font-family: Helvetica, Arial;
+}
+
+#mySiteTitle a {
     text-decoration: none;
     color: white;
 }
@@ -255,22 +259,17 @@ h3#sb1-customization2 {
 }
 
 #services-container{
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .services-block{
-  border: 1px solid #000;
-  margin-bottom: 70px;
-  padding: 32px 24px;
-  width: 190px;
-  float:left;
-  margin-right: 70px;
-  height: 300px;
-}
-
-.services-block:last-child{
-  margin-right: 0px;
+    border: 1px solid #000;
+    padding: 32px 24px;
+    width: 200px;
+    float: left;
+    margin: 32px;
+    height: 300px;
 }
 
 .services-block-heading {
@@ -355,16 +354,16 @@ ul.myArticleUl li:first-letter{
 /* Dev-ops */
 /* stacks */
 .skill-block{
-    width: 200px;
+width: 18%;
     min-height: 450px;
     float: left;
     text-align: center;
-    margin: 10px 40px 10px 0px;
+    /* margin: 10px 40px 10px 0px; */
     padding: 10px;
     }
 
-.skill-block:last-child{
-  margin-right: 0;
+.skill-block:first-child{
+  margin-left: 15px;
 }
 
 .head-part {
@@ -411,8 +410,8 @@ ul.myArticleUl li:first-letter{
     margin-right: 5px;
     text-align: center;
 }
-.tools-block:last-child{
-  margin-right: 0px;
+.tools-block:first-child{
+  margin-left: 20px;
 }
 .img-block {
     height: 150px;
@@ -440,7 +439,7 @@ ul.myArticleUl li:first-letter{
 }
 
 #smaller{
-  font-size: 15px;
+  font-size: 14px;
 }
 
 
@@ -496,7 +495,7 @@ h3#mail-link{
     height: 98px;
     padding: 0 20px;
     width: 93%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #body-message{
@@ -578,3 +577,1152 @@ color: black;
 
 /* Responsive */
 
+
+@media only screen
+and (min-width: 1000px)
+and (max-width: 1300px) {
+
+/* Intro */
+.sectionBlock1{
+  width: 300px;
+}
+
+.sectionBlock1 h2{
+  font-size: 50px;
+}
+
+.sectionBlock1 h3{
+  font-size: 52px;
+}
+
+#sb1-customization {
+    font-size: 59px;
+}
+
+#sb1-customization {
+    font-size: 59px;
+}
+
+h3#sb1-customization2 {
+   font-size: 59px;
+   letter-spacing: 5.25px;
+}
+
+.sectionBlock2{
+    width: 600px;
+}
+
+
+/* Services */
+
+.services-block {
+    border: 1px solid #000;
+    padding: 32px 24px;
+    width: 40%;
+    float: left;
+    margin: 20px;
+    height: 300px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Front End */
+.front-end-article {
+    font-weight: 300;
+    line-height: 18px;
+    text-align: justify;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+ul.myArticleUl li {
+    line-height: 19px;
+    margin-bottom: 5px;
+}
+
+.skill-block{
+   padding: 5px;
+ }
+.skill-block:first-child {
+    margin-left: 25px;
+}
+
+/* TOOLS */
+.tools-block {
+    width: 160px;
+    float: left;
+    border: 1px solid #848484;
+    margin: 10px;
+    margin-right: 5px;
+    text-align: center;
+}
+.tools-block:first-child {
+    margin-left: 10px;
+}
+
+.containerForSkills {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#myFuckingContainer{
+  width: 100%;
+}
+
+/* HIRE */
+
+h3#hire-ready {
+    font-size: 60px;
+}
+
+#hire-ready span {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+#hire h3 {
+    font-weight: 300;
+    font-size: 42px;
+    margin: 0;
+    padding: 0;
+}
+
+#let-chat span {
+    font-weight: 700;
+    font-size: 53px;
+}
+
+}
+
+
+
+@media only screen
+and (min-width: 700px)
+and (max-width: 999px) {
+
+.mySection{
+  padding: 30px 20px;
+}
+
+/* FIXED NAV */
+#myHeader {
+  height: auto;
+}
+
+#mySiteTitle{
+    float: none; 
+    display: block;
+    padding-left: 0;
+    margin: 0 auto;
+    width: 138px;
+}
+
+#myHeader .myNav{
+    float: none;
+    display: block;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 450px;
+}
+
+
+.sectionHead {
+    font-size: 30px;
+}
+
+#myHeader h1 {
+    line-height: 55px;
+}
+
+.containerHead {
+    width: 100%;
+    height: 100px;
+}
+
+
+
+/* Expertise */
+.sectionBlock1{
+  width: 200px;
+}
+
+.sectionBlock1 h2 {
+    font-size: 30px;
+}
+
+.sectionBlock1 h3 {
+    font-size: 31px;
+}
+
+#sb1-customization {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.sectionBlock1 h3 > span {
+    font-size: 18px;
+    display: block;
+    margin-left: 0px;
+    color: red;
+}
+
+h3#sb1-customization2 {
+    font-size: 41px;
+    letter-spacing: 0;
+}
+
+.sectionBlock2{
+    width: 400px;
+}
+
+.sectionBlock2 img {
+    width: 100%;
+    margin-top: 0px;
+}
+/* Services */
+.services-block {
+    border: 1px solid #000;
+    padding: 32px 24px;
+    width: 36%;
+    float: left;
+    margin: 20px;
+    height: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* PRAGMATISM */
+.myArticle {
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Front End */
+
+.block-container2 {
+    width: 62%;
+    float: right;
+}
+
+.block-container{
+    width: 35%;
+    float: left;
+}
+
+
+.front-end-article {
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+ul.myArticleUl li {
+    line-height: 19px;
+    margin-bottom: 5px;
+}
+
+.skill-block{
+   padding: 5px;
+ }
+.skill-block:first-child {
+    margin-left: 15px;
+}
+.skill-block ul {
+    font-size: 14px;
+    min-height: 50px;
+}
+
+/* TOOLS */
+.tools-block {
+    width: 160px;
+    float: left;
+    border: 1px solid #848484;
+    margin: 10px;
+    margin-right: 5px;
+    text-align: center;
+}
+.tools-block:first-child {
+    margin-left: 10px;
+}
+
+.containerForSkills {
+    width: 81%;
+    margin: 0 auto;
+}
+
+#myFuckingContainer{
+  width: 100%;
+}
+
+/* HIRE */
+
+#first-block{
+  width: 30%;
+}
+
+#second-block{
+  width: 67%;
+}
+h3#hire-ready {
+    font-size: 60px;
+}
+
+#hire-ready span {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 14px;
+}
+
+#hire h3 {
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+#let-chat span {
+    font-weight: 700;
+    font-size: 39px;
+}
+
+#myForm input {
+    background: none;
+    border: 2px solid #2f2f2f;
+    border-radius: 0;
+    color: #2f2f2f;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 500;
+    height: 40px;
+    padding: 0 20px;
+    width: 93%;
+    margin-bottom: 20px;
+}
+
+#myForm label {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+
+}
+
+@media only screen
+and (min-width: 400px)
+and (max-width: 699px) {
+
+.mySection{
+  padding: 30px 20px;
+}
+
+/* FIXED NAV */
+#myHeader {
+  height: auto;
+}
+
+#mySiteTitle{
+    float: none; 
+    display: block;
+    padding-left: 0;
+    margin: 0 auto;
+    width: 138px;
+}
+
+#myHeader .myNav {
+    float: none;
+    display: block;
+    line-height: 35px;
+    font-size: 12px;
+    margin: 0 auto;
+    width: 370px;
+}
+
+.myNav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    text-transform: lowercase;
+}
+
+.sectionHead {
+    font-size: 30px;
+}
+
+#myHeader h1 {
+    line-height: 55px;
+}
+
+.containerHead {
+    width: 100%;
+    height: 100px;
+}
+
+
+/* Intro */
+
+#intro h2 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+     margin: 0px; 
+}
+
+.moreIntro {
+   margin-top: 20px;
+}
+
+.introText {
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.myIntrospan {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px;
+    margin-left: 0px;
+    font-weight: 300;
+    border-radius: 10px;
+    border-style: dashed;
+    /* font-size: 14px; */
+}
+
+
+/* Expertise */
+.sectionBlock1 {
+    width: 200px;
+    float: none;
+}
+
+.sectionBlock2 {
+    width: 90%;
+    float: none;
+    margin: 10px auto;
+}
+
+.sectionBlock1 h2 {
+    font-size: 30px;
+}
+
+.sectionBlock1 h3 {
+    font-size: 31px;
+}
+
+#sb1-customization {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.sectionBlock1 h3 > span {
+    font-size: 18px;
+    display: block;
+    margin-left: 0px;
+    color: red;
+}
+
+h3#sb1-customization2 {
+    font-size: 41px;
+    letter-spacing: 0;
+}
+
+
+.sectionBlock2 img {
+    width: 100%;
+    margin-top: 0px;
+}
+/* Services */
+.services-block {
+    border: 1px solid #000;
+    padding: 32px 24px;
+    width: 76%;
+    float: left;
+    margin: 20px;
+    height: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* PRAGMATISM */
+
+.pragBlock{
+float: none;
+width: 100%;
+}
+
+.myArticle {
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Front End */
+
+.block-container2 {
+    width: 100%;
+    float: none;
+}
+
+.block-container{
+    width: 100%;
+    float: none;
+}
+
+
+.front-end-article {
+    font-weight: 300;
+    line-height: 19px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+ul.myArticleUl li {
+    line-height: 19px;
+    margin-bottom: 5px;
+}
+
+.skill-block {
+    width: 300px;
+    min-height: 450px;
+    float: none;
+    text-align: center;
+    /* margin: 10px 40px 10px 0px; */
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid #848484;
+    margin-bottom: 20px;
+}
+
+.skill-block:first-child {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.skill-block ul {
+    font-size: 18px;
+    min-height: 50px;
+}
+
+/* TOOLS */
+.tools-block {
+    width: 100%;
+    float: left;
+    border: 1px solid #848484;
+    margin: 10px;
+    margin-right: 5px;
+    text-align: center;
+}
+.tools-block:first-child {
+    margin-left: 10px;
+}
+
+.containerForSkills {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#myFuckingContainer{
+  width: 100%;
+}
+
+/* HIRE */
+
+#first-block{
+  width: 100%;
+  float: none;
+  margin-bottom: 30px;
+}
+
+#second-block{
+  width: 100%;
+  float: none;
+}
+h3#hire-ready {
+    font-size: 60px;
+}
+
+#hire-ready span {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 14px;
+}
+
+#hire h3 {
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+#let-chat span {
+    font-weight: 700;
+    font-size: 39px;
+}
+
+#myForm input {
+    background: none;
+    border: 2px solid #2f2f2f;
+    border-radius: 0;
+    color: #2f2f2f;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 500;
+    height: 40px;
+    padding: 0 20px;
+    width: 93%;
+    margin-bottom: 20px;
+}
+
+#myForm label {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Contact */
+
+
+#copyright{
+  padding: 50px;
+  font-size: 18px
+}
+
+#social-links a {
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+}
+
+
+@media only screen and (max-width: 399px) {
+.mySection{
+  padding: 30px 20px;
+}
+
+/* FIXED NAV */
+#myHeader {
+  height: auto;
+}
+
+#mySiteTitle{
+    float: none; 
+    display: block;
+    padding-left: 0;
+    margin: 0 auto;
+    width: 138px;
+}
+
+#myHeader .myNav{
+    float: none;
+    display: block;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 450px;
+}
+
+
+.sectionHead {
+    font-size: 30px;
+}
+
+#myHeader h1 {
+    line-height: 55px;
+}
+
+.containerHead {
+    width: 100%;
+    height: 100px;
+}
+
+
+
+/* Expertise */
+.sectionBlock1{
+  width: 200px;
+}
+
+.sectionBlock1 h2 {
+    font-size: 30px;
+}
+
+.sectionBlock1 h3 {
+    font-size: 31px;
+}
+
+#sb1-customization {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.sectionBlock1 h3 > span {
+    font-size: 18px;
+    display: block;
+    margin-left: 0px;
+    color: red;
+}
+
+h3#sb1-customization2 {
+    font-size: 41px;
+    letter-spacing: 0;
+}
+
+.sectionBlock2{
+    width: 400px;
+}
+
+.sectionBlock2 img {
+    width: 100%;
+    margin-top: 0px;
+}
+/* Services */
+.services-block {
+    border: 1px solid #000;
+    padding: 32px 24px;
+    width: 36%;
+    float: left;
+    margin: 20px;
+    height: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* PRAGMATISM */
+.myArticle {
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Front End */
+
+.block-container2 {
+    width: 62%;
+    float: right;
+}
+
+.block-container{
+    width: 35%;
+    float: left;
+}
+
+
+.front-end-article {
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+ul.myArticleUl li {
+    line-height: 19px;
+    margin-bottom: 5px;
+}
+
+.skill-block{
+   padding: 5px;
+ }
+.skill-block:first-child {
+    margin-left: 15px;
+}
+.skill-block ul {
+    font-size: 14px;
+    min-height: 50px;
+}
+
+/* TOOLS */
+.tools-block {
+    width: 160px;
+    float: left;
+    border: 1px solid #848484;
+    margin: 10px;
+    margin-right: 5px;
+    text-align: center;
+}
+.tools-block:first-child {
+    margin-left: 10px;
+}
+
+.containerForSkills {
+    width: 81%;
+    margin: 0 auto;
+}
+
+#myFuckingContainer{
+  width: 100%;
+}
+
+/* HIRE */
+
+#first-block{
+  width: 30%;
+}
+
+#second-block{
+  width: 67%;
+}
+h3#hire-ready {
+    font-size: 60px;
+}
+
+#hire-ready span {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 14px;
+}
+
+#hire h3 {
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+#let-chat span {
+    font-weight: 700;
+    font-size: 39px;
+}
+
+#myForm input {
+    background: none;
+    border: 2px solid #2f2f2f;
+    border-radius: 0;
+    color: #2f2f2f;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 500;
+    height: 40px;
+    padding: 0 20px;
+    width: 93%;
+    margin-bottom: 20px;
+}
+
+#myForm label {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+
+}
+
+@media only screen
+and (min-width: 400px)
+and (max-width: 699px) {
+
+.mySection{
+  padding: 30px 20px;
+}
+
+/* FIXED NAV */
+#myHeader {
+  height: auto;
+}
+
+#mySiteTitle{
+    float: none; 
+    display: block;
+    padding-left: 0;
+    margin: 0 auto;
+    width: 138px;
+}
+
+#myHeader .myNav {
+    float: none;
+    display: block;
+    line-height: 35px;
+    font-size: 12px;
+    margin: 0 auto;
+    width: 370px;
+}
+
+.myNav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    text-transform: lowercase;
+}
+
+.sectionHead {
+    font-size: 30px;
+}
+
+#myHeader h1 {
+    line-height: 55px;
+}
+
+.containerHead {
+    width: 100%;
+    height: 100px;
+}
+
+
+/* Intro */
+
+#intro h2 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+     margin: 0px; 
+}
+
+.moreIntro {
+   margin-top: 20px;
+}
+
+.introText {
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.myIntrospan {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px;
+    margin-left: 0px;
+    font-weight: 300;
+    border-radius: 10px;
+    border-style: dashed;
+    /* font-size: 14px; */
+}
+
+
+/* Expertise */
+.sectionBlock1 {
+    width: 200px;
+    float: none;
+}
+
+.sectionBlock2 {
+    width: 90%;
+    float: none;
+    margin: 10px auto;
+}
+
+.sectionBlock1 h2 {
+    font-size: 30px;
+}
+
+.sectionBlock1 h3 {
+    font-size: 31px;
+}
+
+#sb1-customization {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.sectionBlock1 h3 > span {
+    font-size: 18px;
+    display: block;
+    margin-left: 0px;
+    color: red;
+}
+
+h3#sb1-customization2 {
+    font-size: 41px;
+    letter-spacing: 0;
+}
+
+
+.sectionBlock2 img {
+    width: 100%;
+    margin-top: 0px;
+}
+/* Services */
+.services-block {
+    border: 1px solid #000;
+    padding: 32px 24px;
+    width: 76%;
+    float: left;
+    margin: 20px;
+    height: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* PRAGMATISM */
+
+.pragBlock{
+float: none;
+width: 100%;
+}
+
+.myArticle {
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Front End */
+
+.block-container2 {
+    width: 100%;
+    float: none;
+}
+
+.block-container{
+    width: 100%;
+    float: none;
+}
+
+
+.front-end-article {
+    font-weight: 300;
+    line-height: 19px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+ul.myArticleUl li {
+    line-height: 19px;
+    margin-bottom: 5px;
+}
+
+.skill-block {
+    width: 300px;
+    min-height: 450px;
+    float: none;
+    text-align: center;
+    /* margin: 10px 40px 10px 0px; */
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid #848484;
+    margin-bottom: 20px;
+}
+
+.skill-block:first-child {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.skill-block ul {
+    font-size: 18px;
+    min-height: 50px;
+}
+
+/* TOOLS */
+.tools-block {
+    width: 100%;
+    float: left;
+    border: 1px solid #848484;
+    margin: 10px;
+    margin-right: 5px;
+    text-align: center;
+}
+.tools-block:first-child {
+    margin-left: 10px;
+}
+
+.containerForSkills {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#myFuckingContainer{
+  width: 100%;
+}
+
+/* HIRE */
+
+#first-block{
+  width: 100%;
+  float: none;
+  margin-bottom: 30px;
+}
+
+#second-block{
+  width: 100%;
+  float: none;
+}
+h3#hire-ready {
+    font-size: 60px;
+}
+
+#hire-ready span {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 14px;
+}
+
+#hire h3 {
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+#let-chat span {
+    font-weight: 700;
+    font-size: 39px;
+}
+
+#myForm input {
+    background: none;
+    border: 2px solid #2f2f2f;
+    border-radius: 0;
+    color: #2f2f2f;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 500;
+    height: 40px;
+    padding: 0 20px;
+    width: 93%;
+    margin-bottom: 20px;
+}
+
+#myForm label {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Contact */
+
+
+#copyright{
+  padding: 50px;
+  font-size: 18px
+}
+
+#social-links a {
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+}
