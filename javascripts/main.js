@@ -6,8 +6,8 @@ $(document).ready(function() {
         "I am a Full Stack Engineer.",
         "I am specialized in Back End",
         "I design and build",
-        "Web Applications,",
-        "Web Api's,",
+        "Web Applications",
+        "Web Api's",
         "Distributed Systems.",
         "I am from ^1000 Bangladesh."
     ];
