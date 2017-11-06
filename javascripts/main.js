@@ -4,6 +4,7 @@ $(document).ready(function() {
     var strings = [
         "Hello, I am ^1000 Alamin.",
         "I am a Full Stack Engineer.",
+        "A Hyper Polglot Software Craftsman.",
         "I am specialized in Back End",
         "I design and build",
         "Web Applications",
@@ -18,8 +19,8 @@ $(document).ready(function() {
         backDelay: 2000,
         smartBackspace: false,
         loop: true,
-        //showCursor: true,
-        //cursorChar: '|',
+        showCursor: true,
+        cursorChar: '|',
         //shuffle: 'true',
         fadeOut: true,
         fadeOutClass: 'typed-fade-out',
