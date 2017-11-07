@@ -1,1 +1,131 @@
-.clear,.sectionHead:after{clear:both}.btn,a:link{text-decoration:none}#intro,.containerHead,.img-container img,.mySection,a:before{width:100%}#intro h2,#navigation h1 a,.btn,.myTable td,.sectionHead{text-align:center}.btn{border:2px solid #2f2f2f;display:inline-block;font-size:1.5rem;font-weight:800;padding:16px 20px;text-transform:uppercase;transition:all ease 1s}.sectionHead{font-size:30px;display:block;margin:0 auto;font-family:arvo}a:link{font-weight:700;color:#279821}a:visited{color:#333}a:hover{color:red;text-decoration:underline}.myTable tr:first-child{font-size:50px}.myTable td{padding:10px}.tool-state{font-weight:700;display:block}.done{color:green}.future{color:red}.container-fluid{padding:0}html{font-size:10px;-webkit-tap-highlight-color:transparent}*{box-sizing:border-box}body{overflow-x:hidden;min-height:1000px;font-family:Arvo,sans-serif;font-size:1.4rem;line-height:1.5;color:#333}body::-webkit-scrollbar{width:5px;background:#ddd}body::-webkit-scrollbar-track{background:#fff}body::-webkit-scrollbar-thumb{width:5px;background:#f5484a;border-radius:10px}.mySection{min-height:100vh;display:flex;align-items:center;justify-content:space-between}.mySection:nth-child(odd){background:#333}.mySection:nth-child(even){background:#fff}a:before{position:absolute;z-index:-1;content:'';top:0;left:0;height:100%;background-color:#1e2122;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}a:hover:before{right:0}header#navigation{display:flex;align-items:center;justify-content:space-around;height:115px;font-family:Arvo;position:fixed;top:0;background:#fff;width:100%;z-index:1000000}.collapse-button{display:none}#navigation h1{margin:0}#navigation a{text-decoration:none;font-weight:400;color:#000}#navigation .contact-button a{display:inline-block;border:1px solid #333;padding:10px 20px;transition:color 350ms,background-color 350ms,border-color 350ms}#navigation .contact-button>a:hover{color:#fff;background:#333;text-decoration:none}#myNav a{transition:all 1s}#myNav a:hover{border-bottom:1px solid #333;padding-bottom:3px}#myNav a:not(:first-child){margin-left:20px}@media (max-width:768px){.site-name h1{font-size:30px}.contact-button a{padding:5px;font-size:14px}}@media (max-width:768px) and (max-width:600px){.collapse-button{display:inline-block}#myNav{display:none}}#intro{background:#fff;color:#000;font-family:Arvo;margin-top:40px}#intro .container{height:100%}#imgC{width:50px;height:50px;position:relative;bottom:0;margin:0 auto}#intro h2{font-weight:400;font-size:3rem;margin:100px 0 200px}#introChange{color:#000;transition:all .7s ease-in-out}#introTitle{font-size:4rem}.typed-cursor{font-weight:100;padding:0 2px;-webkit-animation:blink 1s infinite;-moz-animation:blink 1s infinite;-ms-animation:blink 1s infinite;-o-animation:blink 1s infinite;animation:blink 1s infinite}#expertise{background:#fff;margin:0;padding:0}#expertise .container{margin:0;padding:0;display:flex;width:100%}.nextContainer p,h2.sectionHead{margin-bottom:50px}.sectionBlock1{width:25%;overflow:hidden}.sectionBlock2{width:75%;background:#fff}.sectionBlock1 img{width:100%;padding:10px;filter:blur(1px);transition:all .3s ease-in;background:#333}.sectionBlock1 img:hover{filter:blur(0);background:#fff}.nextContainer p{padding:0 15%;text-align:justify;font-size:1.8rem;font-family:arvo}.nextContainer{display:flex;align-items:flex-start;justify-content:space-between;padding:20px}#social-links a,.myIntroText3 a{display:inline-block;border:1px solid #333}.myIntroText3 a{padding:10px 20px;color:#333;transition:color 350ms,background-color 350ms,border-color 350ms;text-decoration:none;margin-right:50px;margin-bottom:10px;min-width:100px;text-align:center;font-weight:400;font-size:14px}.myIntroText3 a:hover{background:#333;color:#fff}@media screen and (max-width:768px){.sectionBlock1{width:40%}.sectionBlock2{width:60%}.nextContainer p{padding:0 20px}.myIntroText3 a{margin-right:10px}.nextContainer{flex-wrap:wrap;justify-contents:space-around;padding:0}}@media screen and (max-width:400px){.sectionBlock1{width:100%}.sectionBlock2{width:100%;margin-top:20px}.nextContainer{flex-wrap:wrap;justify-contents:center;align-items:baseline}.nextContainer p{padding:0 20px}}#contact{display:flex;align-items:center;padding:100px 50px}#contact p{margin:0 auto;text-align:center;font-size:2rem}#social-links{width:300px;margin:0 auto 50px;text-align:center}#social-links a{width:40px;height:40px;border-radius:50%;margin-right:20px;line-height:40px;color:#000;font-size:25px}#social-links a:last-child{margin-right:0}#social-links a:hover{background:#000;color:#fff}#works{background:#fff;padding:150px 0}.workRow h1,.workRow h2,.workRow h3,.workRow h4,.workRow h5,.workRow h6{margin:0 0 20px;line-height:2rem}#works .container{padding:0;margin:0;width:100%}.workContainer{padding:30px}.workRow{display:flex;justify-content:space-between}.workCol1,.workCol2{padding:20px;position:relative}.workCol1{border-right:1px solid #ddd;background:#fff;width:15%;min-width:150px}.workCol2{border-bottom:1px solid #ddd;padding-left:0;margin-left:20px;width:85%;display:flex;align-items:flex-start;margin-bottom:20px;padding-bottom:20px}.workCol1 h3{font-size:16px;text-align:right}.workCol1 h3:after{content:" ";position:absolute;top:22px;right:-8px;display:block;width:15px;height:15px;border-radius:100%;background-color:rgba(187,30,30,.8)}.firstCol2{min-width:300px;width:50%;text-align:justify;padding-right:10px}.firstCol2 img{width:100%}.technologies{margin:20px 0;text-decoration:underline}.firstCol2 a{font-weight:400;border:1px solid;padding:5px 10px;text-decoration:none;display:inline-block;margin-bottom:10px;margin-right:10px}.firstCol2 ol{-webkit-padding-start:10px;margin-bottom:20px}@media screen and (max-width:800px){.workCol2{display:block}.firstCol2{width:100%;margin-bottom:10px}}@media screen and (max-width:568px){.workCol1{display:none}.workCol2{width:100%}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online CSS Minifier/Compressor. Free! Works with Media Queries. Provides an API. Simple Quick and Fast!">
+    <meta name="keywords" content="css, cssminifier, css minifier, css minification, css minify, minify css, minified css, compress css, design, css3, web, html, javascript, web development, hosting">
+    <meta name="author" content="Andrew Chilton, @andychilton">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <title>CSS Minifier</title>
+    <!-- Bootstrap core CSS-->
+    <link href="//cdn.jsdelivr.net/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template-->
+    <link href="/s/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries--><!--[if lt IE 9]>
+      <script src="//cdn.jsdelivr.net/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <!-- Static navbar-->
+      <div role="navigation" class="navbar navbar-default">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">cssminifier.com</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/plugins">Plugins</a></li>
+            <li><a href="/programs">Programs</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <p class="navbar-text">Our other services:</p>
+            </li>
+            <li><a href="https://javascript-minifier.com/">JavaScript Minifier</a></li>
+            <li><a href="http://img-resize.com/">Image Resize</a></li>
+            <li><a href="http://pngcrush.com/">PNG Crush</a></li>
+            <li><a href="http://jpgoptimiser.com/">JPG Optimiser</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="ads" class="row">
+        <div class="col-md-4">
+          <h1>Minify your CSS</h1>
+          <p>Online CSS Minifier/Compressor. Free! Provides an API. Simple Quick and Fast.</p>
+        </div>
+        <div class="col-md-8 c"><a href="https://www.digitalocean.com/?refcode=c151de638f83"><img width="728" height="90" src="/s/img/digital-ocean-728x90.jpg" title="Digital Ocean" alt="Digital Ocean"></a></div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <p>Written and hosted by <a href="https://chilts.org/">Andrew Chilton</a> (<a href="https://twitter.com/andychilton">@andychilton</a>).</p>
+        </div>
+        <div class="col-md-8 c">
+          <p>We recommend <a href="https://www.digitalocean.com/?refcode=c151de638f83">Digital Ocean</a> for hosting your sites. Free $10 credit when you sign up.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="muted">Input CSS</h3>
+          <form id="input-form" method="post" name="f" action="/minify" class="form-stacked">
+            <fieldset>
+              <div class="clearfix">
+                <div class="input">
+                  <textarea id="input" name="input" rows="15" wrap="off" autofocus="autofocus" spellcheck="false" class="col-md-12"></textarea>
+                </div>
+              </div>
+              <div class="actions">
+                <button id="minify" type="submit" class="btn btn-primary">Minify</button> 
+                <button id="download" type="button" disabled="disabled" class="btn">Download as File</button> 
+                <button id="raw" type="button" disabled="disabled" class="btn">RAW</button> 
+                <input id="clear" type="reset" value="Clear" class="btn">
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h3 class="muted">Minified Output</h3>
+          <form id="output-form" name="f" class="form-stacked">
+            <fieldset>
+              <div class="clearfix">
+                <div class="input">
+                  <textarea id="output" name="output" rows="15" wrap="soft" disabled="disabled" class="col-md-12"></textarea>
+                </div>
+              </div>
+              <div class="actions">
+                <button id="select" type="button" disabled="disabled" class="btn">Select All</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <h2 class="muted">Language Examples</h2>
+      <p>Click on the language of your choice:</p>
+      <div role="group" aria-label="Language Examples Navigation" class="btn-group"> <a href="/wget" class="btn btn-default">wget</a> <a href="/curl" class="btn btn-default">Curl</a> <a href="/nodejs" class="btn btn-default">Node.js</a> <a href="/python" class="btn btn-default">Python</a> <a href="/ruby" class="btn btn-default">Ruby</a> <a href="/perl" class="btn btn-default">Perl</a> <a href="/php" class="btn btn-default">PHP</a> <a href="/c-sharp" class="btn btn-default">C#</a>
+      </div>
+      <h3 class="muted">More Languages</h3>
+      <p>
+        I'd love to add more examples in your favourite programming language, so feel free to send them my way.
+        Email andychilton at that gmail place in the sky or tweet to me <a href="https://twitter.com/andychilton">@andychilton</a>.
+      </p>
+      <h2 class="muted">API - General</h2>
+      <p>
+        To minify/compress your CSS perform a POST request to <code>https://cssminifier.com/raw</code> with the
+        <code>input</code> parameter set to the CSS you want to minify.
+      </p>
+      <pre>POST https://cssminifier.com/raw?input=...</pre>
+      <p>To see implementations in other languages see the Language Examples pages above.</p>
+      <h2 class="muted">Plugins</h2>
+      <p>Many of our users have made plugins for various editors which are listed on the <a href="/plugins">plugins</a> page.</p>
+      <h2 class="muted">Programs</h2>
+      <p>Lots of people are making little programs to use CSS Minifier - see the <a href="/programs">programs</a> page.</p>
+      <p>(Ends)</p>
+    </div>
+    <div id="footer">
+      <div class="container"><a href="/">CSS Minifier</a> - By <a href="https://chilts.org/">chilts</a> - <a href="https://twitter.com/andychilton">@andychilton</a></div>
+    </div>
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-17218498-3', 'cssminifier.com'); ga('send', 'pageview');
+      
+    </script>
+    <script src="//cdn.jsdelivr.net/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/s/js/ready.min.js"></script>
+  </body>
+</html>
