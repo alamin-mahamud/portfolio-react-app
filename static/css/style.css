@@ -603,6 +603,7 @@ header h1 a:hover {
 }
 .terminal .code p {
   margin-bottom: 0;
+  text-align: center
 }
 .terminal .code .question p {
   color: #fff;
