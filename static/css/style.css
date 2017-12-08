@@ -627,3 +627,10 @@ header h1 a:hover {
   -o-animation: blink 1s infinite;
   animation: blink 1s infinite;
 }
+.terminal h2{
+  text-transform: initial
+}
+.code a:hover {
+    background: #747448;
+    color: white;
+}
