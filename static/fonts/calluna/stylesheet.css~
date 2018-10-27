@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'CallunaRegular';
-    src: url('Calluna-Regular-webfont.eot?') format('eot'),
-         url('Calluna-Regular-webfont.woff') format('woff'),
-         url('Calluna-Regular-webfont.ttf') format('truetype'),
-         url('Calluna-Regular-webfont.svg#webfont81eSLjlf') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
