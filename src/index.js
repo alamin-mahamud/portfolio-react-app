@@ -1,13 +1,11 @@
 // React
-import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Styles
 import './index.css';
-// import '../node_modules/boostrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.css';
 
 // Containers
-// import App from './App';
 import routes from './routes';
 
 // libs

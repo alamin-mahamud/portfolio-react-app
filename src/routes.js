@@ -41,6 +41,9 @@ export default (
     <li>
     <Link to="/portfolio">Portfolio</Link>
     </li>
+    <li>
+    <Link to="/blog">Blog</Link>
+    </li>
     </ul>
     </nav>
   
@@ -49,6 +52,7 @@ export default (
     <Route path="/about" component={About} />
     <Route path="/projects" component={Projects} />
     <Route path="/portfolio" component={Portfolio} />
+    <Route path="/blog" component={Blog} />
 
     <hr/>
     <Footer />
